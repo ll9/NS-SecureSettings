@@ -166,11 +166,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+// require the plugin
+const SecureStorage = __webpack_require__("../node_modules/nativescript-secure-storage/secure-storage.js").SecureStorage; // instantiate the plugin
+
+
+const secureStorage = new SecureStorage();
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data() {
     return {
-      msg: 'Hello World!'
+      msg: "Hello World!"
     };
   },
 
@@ -179,6 +186,20 @@ __webpack_require__.r(__webpack_exports__);
       this.$showModal(_Page2__WEBPACK_IMPORTED_MODULE_0__["default"], {
         cancelable: false
       });
+    },
+
+    setSecure() {
+      secureStorage.setSync({
+        key: "foo",
+        value: "I was set at " + new Date()
+      });
+    },
+
+    getSecure() {
+      const success = secureStorage.getSync({
+        key: "foo"
+      });
+      alert(success);
     }
 
   }
@@ -225,7 +246,7 @@ exports = module.exports = __webpack_require__("../node_modules/css-loader/lib/c
 
 
 // module
-exports.push([module.i, "\nActionBar[data-v-45ba5ed4] {\n    background-color: #53ba82;\n    color: #ffffff;\n}\n.message[data-v-45ba5ed4] {\n    vertical-align: center;\n    text-align: center;\n    font-size: 20;\n    color: #333333;\n}\n", ""]);
+exports.push([module.i, "\nActionBar[data-v-45ba5ed4] {\n  background-color: #53ba82;\n  color: #ffffff;\n}\n.message[data-v-45ba5ed4] {\n  vertical-align: center;\n  text-align: center;\n  font-size: 20;\n  color: #333333;\n}\n", ""]);
 
 // exports
 
@@ -288,12 +309,16 @@ var render = function() {
     [
       _c("ActionBar", { attrs: { title: "Welcome to NativeScript-Vue!" } }),
       _c(
-        "GridLayout",
-        { attrs: { columns: "*", rows: "*" } },
+        "StackLayout",
         [
-          _c("Label", {
-            staticClass: "message",
-            attrs: { text: _vm.msg, col: "0", row: "0" }
+          _c("Label", { staticClass: "message", attrs: { text: _vm.msg } }),
+          _c("Button", {
+            attrs: { text: "setSecure" },
+            on: { tap: _vm.setSecure }
+          }),
+          _c("Button", {
+            attrs: { text: "getSecure" },
+            on: { tap: _vm.getSecure }
           })
         ],
         1

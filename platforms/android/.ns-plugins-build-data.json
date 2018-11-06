@@ -1,7 +1,10 @@
 {
+	"nativescript-secure-storage": {
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\node_modules\\nativescript-secure-storage\\platforms\\android\\include.gradle": "dbc675a9729c0b349255f3cb3f044a22984b62d7"
+	},
 	"nativescript-socket.io": {
-		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\node_modules\\nativescript-socket.io\\platforms\\android\\AndroidManifest.xml": "9741d925308f7277734e46001e8dc12b4e0c2529",
 		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\node_modules\\nativescript-socket.io\\platforms\\android\\include.gradle": "7a8a45319157113f76f8c777be4227069fa4188d",
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\node_modules\\nativescript-socket.io\\platforms\\android\\AndroidManifest.xml": "9741d925308f7277734e46001e8dc12b4e0c2529",
 		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\node_modules\\nativescript-socket.io\\platforms\\android\\nativescript_socket.io.aar": "4ee76b56d5fb640e4acd694c4f7e9a7634304351"
 	},
 	"tns-core-modules-widgets": {
