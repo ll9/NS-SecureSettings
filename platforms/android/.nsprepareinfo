@@ -1,0 +1,18 @@
+{
+	"time": "Tue Nov 06 2018 20:10:05 GMT+0100 (Mitteleuropäische Zeit)",
+	"nativePlatformStatus": "3",
+	"bundle": true,
+	"release": false,
+	"changesRequireBuild": false,
+	"projectFileHash": "802f755cdfd763c95a1582cd192d3965e12a388a5a6ef6e6b7b94facffaa9dea",
+	"changesRequireBuildTime": "Tue Nov 06 2018 19:55:36 GMT+0100 (Mitteleuropäische Zeit)",
+	"appFilesHashes": {
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\app\\fonts\\.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\app\\app.scss": "b93297b8bd38607c131c9fe914837c46ea73350c",
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\app\\assets\\images\\NativeScript-Vue.png": "31f09bdba72293198ee2e2a83c4fe5aa5744bc3d",
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\app\\components\\App.vue": "be672df690ae27c3130ec1c2817c734db5e498ac",
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\app\\main.js": "27ecbca851c0883ac25aeffa43bfd414c1e69a02",
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\app\\package.json": "322950e1909660e8cccc26001e4626b9a4d4f11b",
+		"C:\\Users\\Lenovo G50-45\\Desktop\\2Archiv\\secure-ns\\app\\components\\Page2.vue": "7b2d5d88fe6dfb323da11f9134ae1726a5c3abd5"
+	}
+}
